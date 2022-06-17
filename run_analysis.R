@@ -75,7 +75,7 @@ write.table(FinalData, "FinalData.txt", row.name=FALSE)
 str(FinalData)
 
 
-
-
+# Write the tab delimited file
+write.table(FinalData, file="tidyData.txt", row.name=FALSE, sep = "\t")
 
 '
